@@ -23,7 +23,7 @@ namespace Klarna.Rest.Models
     using Newtonsoft.Json;
 
     /// <summary>
-    /// Checkout options data model.
+    /// Checkout additional checkbox data model.
     /// </summary>
     public class AdditionalCheckbox
     {

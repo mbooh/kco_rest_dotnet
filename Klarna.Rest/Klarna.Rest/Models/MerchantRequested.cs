@@ -25,7 +25,7 @@ namespace Klarna.Rest.Models
     using Newtonsoft.Json;    
 
     /// <summary>
-    /// Checkout options data model.
+    /// Checkout merchant requested data model.
     /// </summary>
     public class MerchantRequested
     {
