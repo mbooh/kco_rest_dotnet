@@ -28,13 +28,13 @@ namespace Klarna.Rest.Models
     public class AdditionalCheckbox
     {
         /// <summary>
-        /// Gets or sets a value indicating whether the customer's date of birth is mandatory or not.
+        /// Gets or sets the id of the checkbox.
         /// </summary>
         [JsonProperty("id")]
         public string Id { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the customer should be able to supply a different shipping address or not.
+        /// Gets or sets wheter the checkbox is checked or not.
         /// </summary>
         [JsonProperty("checked")]
         public bool? Checked { get; set; }
