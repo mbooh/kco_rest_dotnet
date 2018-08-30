@@ -173,5 +173,11 @@ namespace Klarna.Rest.Models
         /// </summary>
         [JsonProperty("external_checkouts")]
         public IList<ExternalCheckout> ExternalCheckouts { get; set; }
+
+        /// <summary>
+        /// Gets or sets the merchant requested data.
+        /// </summary>
+        [JsonProperty("merchant_requested")]
+        public MerchantRequested MerchantRequested { get; set; }
     }
 }

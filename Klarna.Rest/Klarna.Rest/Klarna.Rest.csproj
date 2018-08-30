@@ -56,6 +56,7 @@
     <Compile Include="Checkout\ICheckoutOrder.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="IResource.cs" />
+    <Compile Include="Models\AdditionalCheckbox.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Attachment.cs" />
     <Compile Include="Models\EMD\AirReservationDetails.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Models\ExternalPaymentMethod.cs" />
     <Compile Include="Models\Gui.cs" />
     <Compile Include="Models\GuiOptions.cs" />
+    <Compile Include="Models\MerchantRequested.cs" />
     <Compile Include="Models\Requests\AddShippingInfo.cs" />
     <Compile Include="Models\CaptureData.cs" />
     <Compile Include="Models\CheckoutOptions.cs" />

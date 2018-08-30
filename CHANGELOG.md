@@ -1,3 +1,6 @@
+## v2.2.2 - 2018-08-30
+- **NEW KL-1** Updated CheckOrderData to handle MerchantRequested to handle additional checkbox data - *Kristoffer.L*
+
 ## v2.2.0 - 2016-02-15
 - **NEW META-112** Updating MerchantUrls model for shipping_option_update, address_update & notification - *Christer.G*
 
